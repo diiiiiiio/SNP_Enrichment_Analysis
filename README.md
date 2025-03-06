@@ -9,8 +9,6 @@ This README outlines the entire process of our patient-specific analysis, from d
 - **Dataset Partitioning:**  
   The patient SNP data are organized into three main folders: **train**, **test**, and **validation**.
 
-- **File Format:**  
-  Each file (e.g., `train_snps.xlsx`) contains SNP data for multiple patients. For each patient, global and local SNP selections have already been merged.
 
 ---
 
@@ -24,6 +22,10 @@ This README outlines the entire process of our patient-specific analysis, from d
 
 - **Merging:**  
   For each patient, the global and local SNP lists are merged to form the final SNP input for further analysis.
+
+- **File Format:**  
+  Each file (e.g., `train_snps.xlsx`) contains SNP data for multiple patients. For each patient, global and local SNP selections have already been merged.
+
 
 ---
 
